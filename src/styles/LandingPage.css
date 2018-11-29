@@ -1,0 +1,8 @@
+.landing-page {
+	height: 100vh;
+	max-width: 100%;
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: column;
+	justify-content: center;
+}

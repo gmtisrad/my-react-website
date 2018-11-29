@@ -1,0 +1,36 @@
+.about-page {
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	opacity: .75;
+	font-color: white;
+	vertical-align: middle;
+}
+
+.about-wrapper {
+	width: 100%;
+	background-color: orange;
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: column;
+	color: white;
+	padding: 2rem, 0 , 2rem, 0;
+	box-shadow: .5rem .5rem 1rem 10px #89f1ff;
+}
+
+h1 {
+	display: flex;
+	flex: 0 1 auto;
+	font-size: 2rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+}
+
+p {
+	display: flex;
+	flex: 0 1 auto;
+	padding-left: 1rem;
+	padding-bottom: .5rem;
+}

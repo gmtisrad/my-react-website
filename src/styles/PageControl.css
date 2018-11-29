@@ -1,0 +1,45 @@
+.control-panel {
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	height: 2rem;
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: row;
+	z-index: 10;
+}
+
+.to-next {
+	position: absolute;
+	bottom: .25rem;
+	left: calc(50% - 1rem);
+	display:flex;
+	flex: 0 1 auto;
+	text-align: center;
+	animation-name: bounce;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.to-top {
+	position: absolute;
+	bottom: .25rem;
+	left: calc(100% - 3rem);
+	display: flex;
+	flex: 0 1 auto;
+	text-align: right;
+	animation-name: bounce;
+	animation-duration: 3s;
+	animation-delay: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes bounce {
+	0% {transform: translateY(0)}
+	25% {transform: translateY(-50%)}
+	50% {transform: translateY(0)}
+	75% {transform: translateY(-.25%)}
+	100% {transform: translateY(0)}
+}

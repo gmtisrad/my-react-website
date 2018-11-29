@@ -1,0 +1,55 @@
+nav {
+	position:fixed;
+	display: flex;
+	flex: 1 0 auto;
+	flex-direction: row;
+	justify-content: space-between;
+	top: 0;
+	height: 3rem;
+	width: 100vw;
+	background-color: orange;
+	box-shadow: 0px .1rem 8px 10px #89f1ff;
+}
+
+.title-wrapper {
+	color: white;
+	text-align: left;
+	margin: .5rem 1rem;
+	font-size: 2rem;
+}
+
+.header-title {
+	margin: 0 auto;
+	overflow: hidden;
+	font-family: courier, monospace;
+	text-align: left;
+	white-space: nowrap;
+	animation: typing 2s steps(30, end);
+}
+
+.carot {
+	animation: blink 1s infinite;
+}
+
+.menu {
+	display: flex;
+	flex: 1 0 auto;
+	flex-direction: row;
+	justify-content: flex-end;
+	height: 100%;
+}
+.menu-item {
+	margin: 1rem 1rem 1rem 0;
+	font-size: 1.5rem;
+	opacity: 1;
+	color: white;
+}
+
+@keyframes typing {
+	from {width: 0;}
+	to { width: 100%;}
+}
+
+@keyframes blink {
+	to { opacity: 0; }
+}
